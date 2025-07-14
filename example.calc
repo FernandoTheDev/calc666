@@ -1,0 +1,32 @@
+// Script de exemplo para a Calculadora Avançada
+
+// Teste básico de precedência
+a = 2 + 3 * (4 - 1)        // Deve ser 2 + 9 = 11
+
+// Teste de funções nativas
+b = sqrt(16)              // 4
+c = sin(3.1415 / 2)       // Aproximadamente 1
+
+// Atribuição encadeada e reuso de variáveis
+d = b + c * a             // 4 + 1 * 11 = 15
+
+// Teste de if/else com condição verdadeira
+if d > 10 then
+    resultado1 = d * 2
+else
+    resultado1 = d / 2
+
+// Teste de if/else com condição falsa
+if a > 100 then
+    resultado2 = 999
+else
+    resultado2 = a + 1     // 12
+
+// Teste com negativo e parênteses complexos
+x = -(a + 1) * (2 - 3)     // -12 * -1 = 12
+
+// Cálculo final usando tudo junto
+final = resultado1 + resultado2 + x   // 30 + 12 + 12 = 54
+
+// Print implícito do valor final (última expressão)
+final

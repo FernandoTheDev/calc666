@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/calc666
+calc666.so
+calc666.dylib
+calc666.dll
+calc666.a
+calc666.lib
+calc666-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
